@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">ExemploImplicito</string>
     <string name="cometario">Clique no Botão para ver os Exemplos de Intent Implicita</string>
-    <string name="btnMapa">Mapa</string>
+    <string name="btnMapa">Mapa Coordenadas</string>
+    <string name="btnMapaBusca">Mapa Busca</string>
     <string name="btnTel">Telefone</string>
     <string name="btnEmail">Email</string>
     <string name="btnWeb">Página Web</string>

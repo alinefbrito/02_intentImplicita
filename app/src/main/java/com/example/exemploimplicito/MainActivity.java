@@ -21,14 +21,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void verMapa(View view)
     {
-        // Localização georreferenciada é possível efetuar a busca ou informar as coordenadas
-
         //coordenadas, onde geo:latitude,longitude; z = o nível de zoom
         Uri location = Uri.parse("geo:-23.562549,-46.655127?z=14");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
+        startActivity(mapIntent );
+
+    }
+
+    public void verMapaLocal(View view)
+    {
+        // Localização georreferenciada é possível efetuar a busca ou informar as coordenadas
         // busca de localiza&ccedil;&atilde;o : (geo:0,0?q="parametros de busca")
-        //Uri localizacao= Uri.parse("geo:0,0?q=Museu+de+Arte+de+São+Paulo+Assis+Chateaubriand");
-
-
+        Uri location= Uri.parse("geo:0,0?q=Museu+de+Arte+de+São+Paulo+Assis+Chateaubriand");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
         startActivity(mapIntent );
 
@@ -44,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void abrirSite(View view)
     {
-        Uri uri = Uri.parse("http://www.google.com");
+        Uri uri = Uri.parse("https://masp.org.br");
         Intent it = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(it);
 
