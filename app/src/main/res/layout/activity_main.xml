@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:dividerPadding="40dp"
+        android:duplicateParentState="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cometario"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verMapa"
+            android:text="@string/btnMapa" />
+
+        <Button
+            android:id="@+id/btnTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fazerChamada"
+            android:text="@string/btnTel" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="enviarEmail"
+            android:text="@string/btnEmail" />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrirSite"
+            android:text="@string/btnWeb" />
+
+        <Button
+            android:id="@+id/btnBusca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="efetuarBusca"
+            android:text="@string/btnBusca" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
