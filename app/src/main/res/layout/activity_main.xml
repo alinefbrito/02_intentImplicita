@@ -58,18 +58,19 @@
             android:text="@string/btnEmail" />
 
         <Button
+            android:id="@+id/btnBusca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="efetuarBusca"
+            android:text="@string/btnBusca" />
+
+        <Button
             android:id="@+id/btnSite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="abrirSite"
             android:text="@string/btnWeb" />
 
-        <Button
-            android:id="@+id/btnBusca"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="efetuarBusca"
-            android:text="@string/btnBusca" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

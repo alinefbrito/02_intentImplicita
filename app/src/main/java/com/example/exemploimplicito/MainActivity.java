@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Uri uri = Uri.parse("https://masp.org.br");
         Intent it = new Intent(Intent.ACTION_VIEW,uri);
-        startActivity(it);
+        startActivity(Intent.createChooser(it, "Selecione"));
 
     }
     public void enviarEmail(View view) throws UnsupportedEncodingException {

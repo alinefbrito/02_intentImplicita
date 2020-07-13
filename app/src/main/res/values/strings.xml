@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExemploImplicito</string>
+    <string name="app_name">Exemplo Implicito</string>
     <string name="cometario">Clique no Botão para ver os Exemplos de Intent Implicita</string>
     <string name="btnMapa">Mapa Coordenadas</string>
     <string name="btnMapaBusca">Mapa Busca</string>

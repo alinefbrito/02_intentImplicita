@@ -22,6 +22,7 @@ public class WebViewActivity extends AppCompatActivity {
         //recupera a URI
         Uri uri = intent.getData();
         WebView wv = (WebView) findViewById(R.id.webview);
+       //opcional
         wv.getSettings().setJavaScriptEnabled(true);
         wv.setWebViewClient(new WebViewClient());
         wv.loadUrl(uri.toString());
