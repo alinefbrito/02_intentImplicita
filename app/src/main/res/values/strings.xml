@@ -7,4 +7,6 @@
     <string name="btnEmail">Email</string>
     <string name="btnWeb">Página Web</string>
     <string name="btnBusca">Busca na Web</string>
+    <string name="sendEmail">Enviar email</string>
+    <string name="chNavegador">Escolha</string>
 </resources>
