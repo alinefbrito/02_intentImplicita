@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public void verMapaLocal(View view)
     {
         // Localização georreferenciada é possível efetuar a busca ou informar as coordenadas
-        // busca de localiza&ccedil;&atilde;o : (geo:0,0?q="parametros de busca")
+        // busca de localiza&ccedil;&atilde;o : (geo:0,0?00="parametros de busca")
         Uri location= Uri.parse("geo:0,0?q=Museu+de+Arte+de+São+Paulo+Assis+Chateaubriand");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
         startActivity(mapIntent );
